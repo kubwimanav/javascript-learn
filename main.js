@@ -153,3 +153,7 @@ console.log(joins);
 const to = ['rayon', 'apr', 'mukura']
 const string = to.toString()
 console.log(string);
+// at method
+const aat = ['country', 'continent', 'sea', 'earth']
+const atmethod = aat.at(0);
+console.log(atmethod)
