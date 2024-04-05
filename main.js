@@ -166,3 +166,11 @@ console.log(children);
 const splicee = ['splice1', 'splice2', 'splice3', 'splice4']
 splicee.splice(4,4,'splice0','splice5')
 console.log(splicee);
+//flat method
+const myArr = [
+  [1, 2],
+  [3, 4],
+  [5, 6],
+];
+const newArr = myArr.flat();
+console.log(newArr);
