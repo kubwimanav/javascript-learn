@@ -149,3 +149,7 @@ console.log(filter);
 const join = ['hello', 'every', 'one']
 const joins = join.join()
 console.log(joins);
+//to string
+const to = ['rayon', 'apr', 'mukura']
+const string = to.toString()
+console.log(string);
