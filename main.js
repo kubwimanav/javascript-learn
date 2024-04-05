@@ -157,3 +157,8 @@ console.log(string);
 const aat = ['country', 'continent', 'sea', 'earth']
 const atmethod = aat.at(0);
 console.log(atmethod)
+//concant method
+const myGirls = ["Cecilie", "Lone"];
+const myBoys = ["Emil", "Tobias", "Linus"];
+const children = myGirls.concat(myBoys);
+console.log(children);
