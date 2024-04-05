@@ -162,3 +162,7 @@ const myGirls = ["Cecilie", "Lone"];
 const myBoys = ["Emil", "Tobias", "Linus"];
 const children = myGirls.concat(myBoys);
 console.log(children);
+//splice method
+const splicee = ['splice1', 'splice2', 'splice3', 'splice4']
+splicee.splice(4,4,'splice0','splice5')
+console.log(splicee);
