@@ -125,15 +125,27 @@ const classnam = document.querySelector('p');
 console.log(classnam);
 classnam.style.color = blur;
 
+//delete method
 let vilan = companies.push({ name: 'iranzi', category: 'high', start: 2000, end: 2007 })
 
-// delete companies[0];
+delete companies[0];
+//slice method
 const ball =['banana','poteto','orange']
 const slice= ball.slice(1)
 console.log(slice);
+
+//pop method
 const balls = [
-    { name: 'irafasha', company: 'registered' },
-    {name:'emalito',company:'admited'}
-]
+  { name: "irafasha", company: "registered" },
+  { name: "irafasha", company: "registered" },
+  { name: "emalito", company: "admited" },
+];
 const balll = balls.pop();
 console.log(balll);
+const filter = balls.filter(vin => vin.name === 'irafasha');
+console.log(filter);
+
+//join method
+const join = ['hello', 'every', 'one']
+const joins = join.join()
+console.log(joins);
