@@ -1,21 +1,22 @@
 const companies = [
-{ name: 'vincent', category: 'finace', start: 1981, end: 2003 },
-{name:'emmy', category:'finace',start:1980, end:2007},
+  { name: "vincent", category: "finace", start: 1981, end: 2003 },
 
-{name:'eme', category:'finace',start:1982, end:1989},
+  { name: "vincent", category: "finace", start: 1981, end: 2003 },
+  { name: "emmy", category: "finace", start: 1980, end: 2007 },
 
-{name:'boby', category:'enginier',start:1980, end:1987},
+  { name: "eme", category: "finace", start: 1982, end: 1989 },
 
-{name:'umurisa', category:'developer',start:1994, end: 1983},
+  { name: "boby", category: "enginier", start: 1980, end: 1987 },
 
-{name:'Renny', category:'manager',start:1995, end:2020},
-]
-const age = [32, 45, 35, 40, 43, 47, 48, 38]
+  { name: "umurisa", category: "developer", start: 1994, end: 1983 },
+
+  { name: "Renny", category: "manager", start: 1995, end: 2020 },
+];
+const age = [32, 45, 35, 40, 43, 47, 48, 38];
 // companies.forEach(function (company) {
 //     console.log(company.category)
 // })
 // filter
-
 
 // const bank = age.filter(function (names) {
 //     if (names>40) {
@@ -58,12 +59,10 @@ const age = [32, 45, 35, 40, 43, 47, 48, 38]
 //     console.log(companyname);
 // }
 
-
 // const start = companies.map(starts => `${starts.name} [${starts.start}-${starts.end}]`)
 // {
 //     console.log(start)
 // }
-
 
 // sort
 
@@ -76,7 +75,6 @@ const age = [32, 45, 35, 40, 43, 47, 48, 38]
 //     console.log(ages)
 // }
 
-
 // let person = {
 //     name: 'vincent',
 //     age: 22,
@@ -87,20 +85,16 @@ const age = [32, 45, 35, 40, 43, 47, 48, 38]
 // selector[2] = 'blue';
 // console.log(selector.length)
 
-
-
 // const speak = function (name='vincent',time='morning') {
 //     console.log(`good ${time} ${name}`)
 // }
 // speak();
 const totall = (product, tax) => {
-    let total=0
-    for (let i = 0; i < product.length; i++){
-        
-    }
-    return total;
-}
-console.log(totall[(10, 10, 10), 2])
+  let total = 0;
+  for (let i = 0; i < product.length; i++) {}
+  return total;
+};
+console.log(totall[((10, 10, 10), 2)]);
 
 // const bar = document.querySelector('div.error')
 // console.log(bar)
@@ -121,17 +115,22 @@ console.log(totall[(10, 10, 10), 2])
 // paragraph.array.forEach(element => {
 //     element.inn
 // });
-const classnam = document.querySelector('p');
+const classnam = document.querySelector("p");
 console.log(classnam);
 classnam.style.color = blur;
 
 //delete method
-let vilan = companies.push({ name: 'iranzi', category: 'high', start: 2000, end: 2007 })
+let vilan = companies.push({
+  name: "iranzi",
+  category: "high",
+  start: 2000,
+  end: 2007,
+});
 
 delete companies[0];
 //slice method
-const ball =['banana','poteto','orange']
-const slice= ball.slice(1)
+const ball = ["banana", "poteto", "orange"];
+const slice = ball.slice(1);
 console.log(slice);
 
 //pop method
@@ -142,29 +141,29 @@ const balls = [
 ];
 const balll = balls.pop();
 console.log(balll);
-const filter = balls.filter(vin => vin.name === 'irafasha');
+const filter = balls.filter((vin) => vin.name === "irafasha");
 console.log(filter);
 
 //join method
-const join = ['hello', 'every', 'one']
-const joins = join.join()
+const join = ["hello", "every", "one"];
+const joins = join.join();
 console.log(joins);
 //to string
-const to = ['rayon', 'apr', 'mukura']
-const string = to.toString()
+const to = ["rayon", "apr", "mukura"];
+const string = to.toString();
 console.log(string);
 // at method
-const aat = ['country', 'continent', 'sea', 'earth']
+const aat = ["country", "continent", "sea", "earth"];
 const atmethod = aat.at(0);
-console.log(atmethod)
+console.log(atmethod);
 //concant method
 const myGirls = ["Cecilie", "Lone"];
 const myBoys = ["Emil", "Tobias", "Linus"];
 const children = myGirls.concat(myBoys);
 console.log(children);
 //splice method
-const splicee = ['splice1', 'splice2', 'splice3', 'splice4']
-splicee.splice(4,4,'splice0','splice5')
+const splicee = ["splice1", "splice2", "splice3", "splice4"];
+splicee.splice(4, 4, "splice0", "splice5");
 console.log(splicee);
 //flat method
 const myArr = [
